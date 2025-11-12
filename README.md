@@ -1,69 +1,93 @@
-# 👥 Relatório de Recursos Humanos - Power BI
+# Relatório de RH - Análise de Colaboradores
 
-Bem-vindo ao **Relatório de RH**! 🚀 Este painel interativo foi criado para fornecer uma visão completa sobre o perfil dos colaboradores da empresa. Com ele, é possível acompanhar salários, formação acadêmica, distribuição etária, localização, cargos e setores, facilitando análises estratégicas e tomadas de decisão na gestão de pessoas. 📊
+> Painel de controle interativo em Power BI para análise estratégica de Recursos Humanos, oferecendo insights sobre salários, demografia, formação e estrutura organizacional da empresa.
 
-## 📸 **Preview do Dashboard**
-![Image](https://github.com/user-attachments/assets/99b24ba9-6ed9-4640-9dca-06840b7f88f5)
+[![Status](https://img.shields.io/badge/Status-Concluído-success)](https://github.com/seu-usuario/powerbi-rh-dashboard)
+[![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811)](https://powerbi.microsoft.com/)
+[![DAX](https://img.shields.io/badge/DAX-Fórmulas-000000)](https://learn.microsoft.com/pt-br/dax/)
+[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
 
-## 📌 Visão Geral
-Este relatório desenvolvido no **Power BI** oferece insights estratégicos sobre o capital humano da organização, reunindo dados essenciais como:
+## Sobre o Projeto
 
-✅ **Total de Salários** 💰  
-✅ **Média Salarial** 📊  
-✅ **Número de Colaboradores** 🧑‍🤝‍🧑  
-✅ **Quem São Nossos Colaboradores** 🧾  
-✅ **Formação Acadêmica** 🎓  
-✅ **Localização dos Colaboradores** 🌎  
-✅ **Distribuição Etária** 📆  
-✅ **Setores** 🏢  
-✅ **Cargos Ocupados** 🪑  
-✅ **Filtro por Gênero (Homem/Mulher)** 🚻  
+O **Relatório de RH** é um dashboard desenvolvido em Power BI para centralizar e visualizar os dados mais importantes sobre o capital humano de uma organização. O objetivo é transformar planilhas e dados brutos em insights acionáveis, permitindo que a equipe de Recursos Humanos tome decisões mais estratégicas sobre gestão de pessoas, diversidade, planejamento de carreira e alocação de recursos.
+
+Este painel oferece uma visão 360 graus do perfil dos colaboradores, desde informações salariais até a distribuição geográfica e etária.
+
+## 🖼️ Demonstração Visual
+
+| Dashboard Principal |
+| :---: |
+| ![Dashboard de RH](https://github.com/user-attachments/assets/99b24ba9-6ed9-4640-9dca-06840b7f88f5) |
+
+## ✨ Funcionalidades
+
+### 💰 Análise de Remuneração
+-   **Visão Geral Financeira:** Acompanhe o **Total de Salários** pagos e a **Média Salarial** da empresa.
+-   **Comparativos:** Analise a distribuição salarial por setor, cargo e gênero.
+
+### 🧑‍🤝‍🧑 Perfil Demográfico dos Colaboradores
+-   **Contagem Total:** Saiba o número exato de colaboradores ativos.
+-   **Distribuição Etária:** Entenda as faixas etárias predominantes na organização.
+-   **Formação Acadêmica:** Identifique os níveis de escolaridade mais comuns na equipe.
+-   **Localização:** Visualize em um mapa onde os colaboradores estão localizados.
+
+### 🏢 Análise Estrutural e Organizacional
+-   **Distribuição por Setor:** Veja a quantidade de funcionários em cada departamento.
+-   **Cargos Ocupados:** Analise a hierarquia e a distribuição de funções na empresa.
+
+### 🚻 Filtros Interativos
+-   **Segmentação por Gênero:** Filtre todo o dashboard para visualizar dados específicos de homens ou mulheres, facilitando análises de diversidade.
+-   **Filtros Dinâmicos:** Explore os dados utilizando filtros por setor, localização e outros campos para análises aprofundadas.
+
+## Tecnologias
+
+### Ferramentas de BI
+-   **Power BI** - Plataforma principal para modelagem, análise e visualização de dados.
+-   **DAX (Data Analysis Expressions)** - Linguagem utilizada para criar cálculos e métricas personalizadas.
+
+### Fonte de Dados
+-   **Excel / CSV** - Base de dados primária contendo as informações dos colaboradores.
+
+## Pré-requisitos
+
+-   [Power BI Desktop](https://powerbi.microsoft.com/pt-br/desktop/) instalado no seu computador.
+
+## Como Usar
+
+1.  **Clone ou baixe o repositório** para o seu computador.
+2.  **Abra o arquivo `.pbix`** (`Dashboard.pbix`) no Power BI Desktop.
+3.  **Atualize a fonte de dados**, se necessário, para conectar o painel à sua própria base de dados (`.xlsx` ou `.csv`).
+4.  **Navegue pelo relatório** para explorar as métricas e os visuais.
+5.  **Utilize os filtros** na lateral para segmentar e aprofundar suas análises.
+6.  Para compartilhar, publique o relatório no **Power BI Service**.
+
+## Contribuição
+
+Sugestões e melhorias são sempre bem-vindas! Se você tem uma ideia para um novo visual ou uma métrica interessante:
+
+1.  Faça um Fork do projeto.
+2.  Crie sua Feature Branch (`git checkout -b feature/NovaAnalise`).
+3.  Faça Commit de suas mudanças (`git commit -m 'Adiciona análise de turnover'`).
+4.  Faça Push para a Branch (`git push origin feature/NovaAnalise`).
+5.  Abra um Pull Request.
+
+## Suporte e Contato
+
+-   **Email**: [g.moreno.souza05@gmail.com](mailto:g.moreno.souza05@gmail.com)
+-   **LinkedIn**: [Gustavo Moreno](https://www.linkedin.com/in/gustavo-moreno-8a925b26a)
+
+## Licença
+
+Este projeto está licenciado sob uma Licença Proprietária.
+
+**Uso Restrito**: Este relatório e seu design são de propriedade exclusiva do autor. Uso comercial ou redistribuição requer autorização expressa.
 
 ---
 
-## 🔍 Principais Indicadores
-
-📌 **Total de Salários** – Soma dos salários pagos aos colaboradores.  
-📌 **Média Salarial** – Valor médio da remuneração dos funcionários.  
-📌 **Colaboradores** – Total de pessoas que compõem a equipe.  
-📌 **Nossos Colaboradores São** – Perfil geral dos colaboradores, com informações como tempo de casa e regime de contratação.  
-📌 **A Formação Acadêmica Mostra Que** – Níveis de escolaridade predominantes entre os colaboradores.  
-📌 **Eles Estão Localizados em** – Visualização geográfica das unidades e locais de trabalho.  
-📌 **A Distribuição Etária É** – Faixas etárias predominantes no quadro de funcionários.  
-📌 **Eles Estão nos Setores** – Distribuição dos colaboradores por departamento/setor.  
-📌 **Eles Estão nos Cargos de** – Hierarquia e funções desempenhadas na organização.  
-📌 **Filtragem por Gênero** – Visualização segmentada entre homens e mulheres.
-
----
-
-## 💻 Tecnologias Utilizadas
-✅ **Power BI** – Ferramenta principal para visualização e análise de dados.  
-✅ **DAX (Data Analysis Expressions)** – Para cálculos personalizados.  
-✅ **Excel / CSV** – Base de dados contendo informações dos colaboradores.  
-✅ **Segmentações Visuais** – Filtros interativos por gênero, setor, localização e outros.  
-
----
-
-## 🛠️ Como Usar
-1. **Baixe o arquivo** `.pbix` e abra no **Power BI Desktop**.  
-2. Navegue entre as páginas do relatório para explorar cada métrica.  
-3. Utilize os **filtros por gênero** e outros campos para aprofundar a análise.  
-4. Para visualização em **tela cheia**, pressione `F11`.  
-5. Publique no **Power BI Service** para compartilhamento online.
-
----
-
-## 📂 Estrutura dos Arquivos
-📌 **Base de Dados:** Arquivo `.xlsx` ou `.csv` com informações dos colaboradores.  
-📌 **Dashboard:** Arquivo `.pbix` com os gráficos, filtros e indicadores do relatório.  
-
----
-
-## 🌟 Sobre o Projeto
-O objetivo deste relatório é apoiar a área de Recursos Humanos com uma visão abrangente e analítica do quadro funcional, contribuindo para ações estratégicas em gestão de pessoas, diversidade, alocação e planejamento organizacional. Caso tenha sugestões ou queira contribuir com melhorias, será muito bem-vindo! 😄📈
-
-🚀 **Desenvolvido por:** [Gustavo](https://www.linkedin.com/in/gustavo-moreno-8a925b26a)  
-🔗 **Acesse o Dashboard Aqui:** [Relatório RH Power BI](https://app.powerbi.com/view?r=exemplo-do-link-do-seu-dashboard)
-
----
-
+<div align="center">
+  Desenvolvido por Gustavo Moreno  
+  <br><br>
+  <a href="https://www.linkedin.com/in/gustavo-moreno-8a925b26a" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="24" alt="LinkedIn"/>
+  </a>
+</div>
